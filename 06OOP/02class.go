@@ -9,17 +9,6 @@ type Hero struct {
 	Level int
 }
 
-/*// GetName getter
-func (this Hero) GetName() string {
-	return this.Name
-}
-
-// SetName setter
-// this是调用该方法的对象的一个拷贝
-func (this Hero) SetName(newName string) {
-	this.Name = newName
-}*/
-
 func (this *Hero) showHero() {
 	fmt.Println("Name is", this.Name)
 	// fmt.Println("Id is", this.Id)
