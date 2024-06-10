@@ -1,0 +1,11 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+P
+ 01Variable/Variables01_basics.go,9/6/96bd687bf23cece8b0cb7e90b728a233e2982c21
+A
+05Map/Practice.go,1/1/11dcfa1d5421424ffe53ec2382191b3480154a37
+>
+05Map/Map01.go,0/1/01f9a1a8fe3dabab351849947367282532ac48d9
+>
+05Map/Map02.go,1/9/195507c9527428ee81d2628914442b43d9c8a77b
