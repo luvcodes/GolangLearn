@@ -22,8 +22,8 @@ func (this Hero) SetName(newName string) {
 
 func (this *Hero) showHero() {
 	fmt.Println("Name is", this.Name)
-	fmt.Println("Id is", this.Id)
-	fmt.Println("Level is", this.Level)
+	// fmt.Println("Id is", this.Id)
+	// fmt.Println("Level is", this.Level)
 }
 
 // GetName getter
