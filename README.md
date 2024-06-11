@@ -5,5 +5,4 @@ This is the reporsitory for Golang learning and practice with corresponding proj
 Go Basics
 
 # Chapter 2
-- goroutine
-
+goroutine
