@@ -11,9 +11,9 @@ type User struct {
 	Age  int
 }
 
-func (this User) Call() {
+func (user User) Call() {
 	fmt.Println("User Call")
-	fmt.Printf("%+v\n", this)
+	fmt.Printf("%+v\n", user)
 }
 
 func main() {
