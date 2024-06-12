@@ -1,26 +1,25 @@
 package main
 
-// 定义接口 实现多态
+// AnimalInterface 定义接口 实现多态
 type AnimalInterface interface {
 	Sleep()
-	GetColor() string // 获取动物的颜色
-	GetType() string  // 获取动物的种类
+	GetColor() string
+	GetType() string
 }
 
-// 实现接口具体的Cat类
+// Cat 实现接口具体的Cat类
 type Cat struct {
 	color string
 }
 
-// 实现接口具体的Dog类
+// Dog 实现接口具体的Dog类
 type Dog struct {
 	color string
 }
 
-// 实现接口全部方法
-func (this *Cat) Sleep() {
-	println("Cat is sleeping")
-}
+// Sleep 实现接口全部方法
+// 针对Cat
+func (this *Cat) Sleep() { println("Cat is sleeping") }
 
 func (this *Cat) GetColor() string {
 	return this.color
@@ -30,9 +29,9 @@ func (this *Cat) GetType() string {
 	return "Cat"
 }
 
-func (this *Dog) Sleep() {
-	println("Dog is sleeping")
-}
+// Sleep ----------------------
+// 针对Dog 实现接口全部相关方法
+func (this *Dog) Sleep() { println("Dog is sleeping") }
 
 func (this *Dog) GetColor() string {
 	return this.color
