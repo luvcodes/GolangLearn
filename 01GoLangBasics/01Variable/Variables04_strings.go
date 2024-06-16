@@ -26,4 +26,7 @@ func main() {
 	// 3. 使用fmt.Sprintf进行拼接
 	str4 := fmt.Sprintf("%s%s", str2, str3)
 	fmt.Println(str4)
+
+	// s := "hello"
+	// fmt.Printf("%c\n", s[0])
 }
